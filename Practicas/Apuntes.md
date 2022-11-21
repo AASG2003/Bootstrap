@@ -5,4 +5,45 @@
     - Estructura (base) que puedes usar para desarrollar tu aplicacion o sitio web de forma mas rapida y eficiente
     - Clases que nos permiten personalizar el estilo de los elementos html de nuestro sitio web.
 - Adaptable (responsive)
-    - 
+    - Adaptable a distintos dispositivos en base a sus dimensiones y orientacion, se adapta a las medidas de distintas pantallas.
+- Pilares de bootstrap
+    - Grid
+    - Componentes
+    - Iconos
+- La grid
+    - Cuadricula, conjunto de contenedores, filas y columnas que definen como se va a presentar y alinear el contenido
+    - Crea cuadros como tablero de ajedrez, luego estos pueden tener mas o menos espacio
+    - Cada fila va a estar dividida en 12 columnas
+    - Clases para la grid
+        - .row, .col-md-, .col-, .col-lg-, .col-sm, .col-xl, .col-xs
+        - Clase row
+            - Indicamos que ese elemento de html se convierte en una fila
+        - Clases col
+            - Las letras sirven como abreviasiones, extra small, small, medium, large y extra large
+            - Esto sirve para realizar algo cuando las dimensiones de la pantalla sean de ese tamaño
+            - Despues del ultimo guion indicamos cuantas columnas queremos que ocupe nuestro elemento
+        - Breakpoint
+            - Dimension (ancho) a partir de la cual podemos cambiar el estilo o la estructur de la pagina web, en bootstrap hay 6.
+            - Podemos cambiar los pixeles predeterminados de los breakpoints
+            - ![image](https://i0.wp.com/bootstrapcreative.com/wp-bc/wp-content/uploads/2016/11/Screen-Shot-2017-06-12-at-4.17.31-AM.png?resize=580%2C570&ssl=1)
+    - Estructura de la grid
+        - Un contenedor puede contener filas y cada fila contiene 12 columnas.
+        - Hay un container tiene filas y las filas tiene columnas.
+- Contenedor
+    - Elemento que contiene las filas y las columnas
+    - .container
+        - Crea un contenedor responsivo con un ancho maximno fijo que depende del tamaño del dispositivo
+        - si o si tienen un ancho fijo
+    - .container-fluid
+        - crea un contenendor responsivo, buscano llenar el 100% del ancho de la ventana
+    - contenedores responsivos
+        - .container-(sm, md, lg, x, xxl) 
+        - Crea un contenedor responsivo que cubre 100% del ancho de la ventana hasta que llega a las dimensiones del breakpoint
+    - Los elementos de una fila pueden ocupar varias columnas.
+    - MUY IMPORTANTE QUE OCUPEN UN TOTAL DE 12 COLUMNAS PARA QUE ESTEN UBICADOS EN LA MISMA LINEA
+- Componentes
+    - Elemento html reutilizable que ya viene con un estilo predeterminado y que podemos usar en nuestra pagina web.
+    - SE PUEDEN PERSONALIZAR
+
+
+        
