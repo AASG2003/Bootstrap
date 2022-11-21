@@ -44,6 +44,28 @@
 - Componentes
     - Elemento html reutilizable que ya viene con un estilo predeterminado y que podemos usar en nuestra pagina web.
     - SE PUEDEN PERSONALIZAR
+- Flexbox
+    - Como se distribuiran los elementos 
+    - Permite que los elementos responsivos ubicados dentro de un contenedor se distribuyan automaticamente en base al tamaño del dispositivo.
+    - Bootstrap incluye clases que podemos usar para trabajar con flexbox mas facilmente
+    - Bootstrap class="d-flex"
+    - Flex-direction
+        - Establece el eje principal del contenedor, la direccion en la cual se van a colocar los elementos, vertical y horizontal
+        - row, row-reverse, column, column-reverse
+            - Elementos en una fila, horizontalmente, siendo este el eje principal, row
+            - Elementos en una columna, vertical, column
+        - Justify-content define como se distribuyen los elementos en el eje principal
+            - flex-start, flex-end, center, space-between, space-around, space-evenly
+            - .justify-content-(start, end, center, between, around, evenly), esto es para bootstrap
+        - align-itms define como se distribuyen los elementos en el eje perpendicular al principal, quiere decir en el eje secundario
+            - flex-start, flex-end, center, baseline, stretch(estirar)
+            - .align-items-(start, end, center, baseline, stretch), esto es para bootstrap
+        - flex-wrap determina si los elementos deben ser ajustados para que siempre esten en una misma linea o si se les permite distribuirse en varias lineas si es necesario
+            - nowrap(por defecto), wrap, wrap-reverse
+            - .flex-(nowrap, wrap, wrap-reverse), en bootstrap
+            
+
+
 
 
         
