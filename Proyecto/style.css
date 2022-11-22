@@ -156,7 +156,7 @@ h1{
     margin-bottom: 20px;
 }
 
-.card{
+.resource .card{
     height: 100%;
     width: 100%;
     padding: 10px;
@@ -165,18 +165,34 @@ h1{
     transition: all 0.2s ease-in;
 }
 
-.card img{
+.resource .card img{
     max-width: 150px;
     max-height: 200px;
     border-radius: 50%;
 }
 
-.card:hover{
+.resource .card:hover{
     color: white;
     background-color: #1b1b32;    
 }
 
+/* news */
 
+.news{
+    min-height: 500px;
+    padding: 30px;
+
+}
+
+.news .card{
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.news .card-header{
+    font-weight: bold;
+}
 
 /* Adaptable (responsive) */
 @media screen and (max-width: 767px) {
