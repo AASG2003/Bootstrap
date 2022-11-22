@@ -1,62 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- meta -->
-        <meta charset="utf-8">
-        <meta name="author" content="Alberto Soria">
-        <meta name="description" content="portafolio de desarollo de Alberto Soria">
-        <meta name="keywords" content="student resources, learning">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- titulo -->
-        <title>Alberto Soria | Desarrollo web Front-end</title>
-        <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="images/icono.png">
-        <!-- bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <!-- css -->
-        <link href="style.css" rel="stylesheet">
-        <!-- Google fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <!-- nav bar -->
-        <nav class="navbar navbar-expand-md navbar-light">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggler">
-              <a class="navbar-brand" href="#">
-                  <img src="images/icono.png" width="50" alt="Logo de la pagina web">
-              </a>
-              <ul class="navbar-nav d-flex justify-content-center align-items-center">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Resources</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">News</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
+  <head>
+      <!-- meta -->
+      <meta charset="utf-8">
+      <meta name="author" content="Alberto Soria">
+      <meta name="description" content="portafolio de desarollo de Alberto Soria">
+      <meta name="keywords" content="student resources, learning">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- titulo -->
+      <title>Alberto Soria | Desarrollo web Front-end</title>
+      <!-- Favicon -->
+      <link rel="icon" type="image/x-icon" href="images/icono.png">
+      <!-- bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <!-- bootstrap icons -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+      <!-- css -->
+      <link href="style.css" rel="stylesheet">
+      <!-- Google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <a class="navbar-brand" href="#">
+              <img src="images/icono.png" width="50" alt="Logo de la pagina web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Communities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- section hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-tech rounded-circle" src="images/technology.png" alt = "Tech Logo">
+        <h1>Welcome to Tech World</h1>
+        <h2>For students looking for new skills</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inf-image img-fluid"src="images/imageHero-Inferior.png" alt="welcome image">
+      </div>
+    </section>
+
+    <!-- section about -->
+    <section class="about dark-section">
+      <div class="new-container">
+        <h2 class="title-section">About Tech World</h2>
+        <p class="text-section">Tech world is a new page with the objective of giving information and knowledge to 
+          others, in special to students, in this page you are going to find different resources
+          about technology and design, hope you find it useful and welcome to Tech World.
+        </p>
+      </div>
+    </section>
+    
+    <!-- communities -->
+    <section class="communities section-light">
+      <h1>Communities</h1>
+      <div class="container text-center">
+        <div class="row">
+          <!-- mlsa -->
+          <div class="new-column col-12 col-md-4">
+            <a href="https://studentambassadors.microsoft.com/"><img class="img-fluid rounded-circle" src="images/mlsaIcon.jpg"></a>
+            <p class="com-title">MLSA</p>
+            <p>Microsoft Learn Student Ambassadors complete activities and make contributions to the community in order to progress through milestones and unlock additional benefits.</p>
+            <div class="badges-container">
+              <span class="badge text-bg-primary">Soft skills</span>
+              <span class="badge text-bg-primary">Technology</span>
+              <span class="badge text-bg-primary">Personal Growing</span>
             </div>
           </div>
-        </nav>
-        <!-- section hero -->
-        <section class="hero align-items-stretch">
-          <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-            <img class="hero-imagen-tech rounded-circle" src="images/technology.png" alt = "Tech Logo">
-            <h1>Welcome to Tech World</h1>
-            <h2>For students looking for new skills</h2>
+          <!-- gdg -->
+          <div class="new-column col-12 col-md-4">
+            <a href="https://developers.google.com/community/gdg"><img class="img-fluid rounded-circle" src="images/gdgIcon.jpg"></a>
+            <p class="com-title">GDG</p>
+            <p>When you join a Google Developer Group, you'll have the opportunity to learn new skills in a variety of formats. You’ll also meet local developers virtually or in-person with similar interests in technology. The community prides itself on being an inclusive environment where everyone and anyone interested in tech - from beginner developers to experienced professionals are welcome to join.</p>
+            <div class="badges-container">
+              <span class="badge text-bg-primary">Soft skills</span>
+              <span class="badge text-bg-primary">Technology</span>
+              <span class="badge text-bg-primary">Personal Growing</span>
+            </div>
           </div>
-          <div class="hero-inferior"></div>
-        </section>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    </body>
+          <!-- mug -->
+          <div class="new-column col-12 col-md-4">
+            <a href="https://www.facebook.com/microsoftusergroup.bo"><img class="img-fluid rounded-circle" src="images/mugIcon.jpg"></a>
+            <p class="com-title">MUG Bolivia</p>
+            <p>Microsof User Group Bolivia it is a community about tecnology, with the objective to promote and spread expiriences and information between peers.</p>
+            <div class="badges-container">
+              <span class="badge text-bg-primary">Soft skills</span>
+              <span class="badge text-bg-primary">Technology</span>
+              <span class="badge text-bg-primary">Personal Growing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- resources -->
+    <section class="resources section-light d-flex flex-column">
+      <h2 class="section-title black-text">Resources</h2>
+      <h3 class="description-section">Web Pages and digital material for students</h3>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
 </html>
