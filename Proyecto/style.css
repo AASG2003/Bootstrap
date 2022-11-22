@@ -39,8 +39,21 @@ h1{
     font-family: 'Rubik Dirt', cursive;
 }
 
+.description-section{
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
 .text-section{
     font-size: 1.2rem;
+}
+
+.black-text{
+    color: black;
+}
+
+.white-text{
+    color: white;
 }
 
 
@@ -110,6 +123,7 @@ h1{
     font-weight: bold;
     margin: 10px 0;
 }
+
 .communities h1{
     padding: 20px 20px 40px 20px;
 }
@@ -129,6 +143,40 @@ h1{
 .resources{
     padding: 40px;
 }
+
+.resent-resources{
+    padding: 40px;
+}
+.resources-container{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.resource{
+    margin-bottom: 20px;
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease-in;
+}
+
+.card img{
+    max-width: 150px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+.card:hover{
+    color: white;
+    background-color: #1b1b32;    
+}
+
+
 
 /* Adaptable (responsive) */
 @media screen and (max-width: 767px) {
