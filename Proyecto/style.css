@@ -249,6 +249,20 @@ h1{
     transition: all 0.2s ease-in-out;
 }
 
+/* scroll button */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: -5px;
+    display: none;
+}
+
+button .bi-arrow-up-short{
+    color: white;
+    font-size: 30px;
+    background-color: rgb(0, 153, 255);
+    border-radius: 10%;
+}
 
 
 /* Adaptable (responsive) */
